@@ -44,19 +44,19 @@ Este projeto utiliza o Google Colab como ambiente de desenvolvimento. Siga as in
 
 1. Acesso ao Google Colab: 
 
-Acesse o Google Colab e faça login na sua conta do Google. 
+* Acesse o Google Colab e faça login na sua conta do Google. 
 
-Crie um notebook ou faça upload do notebook existente para o Google Colab. 
+* Crie um notebook ou faça upload do notebook existente para o Google Colab. 
 
 2. Instalação de Bibliotecas: 
 
-Execute a célula de código abaixo para instalar as bibliotecas necessárias para o projeto: 
+* Execute a célula de código abaixo para instalar as bibliotecas necessárias para o projeto: 
 
 !pip install tensorflow transformers nltk pandas scikit-learn matplotlib seaborn 
 
 3. Importação de Bibliotecas e Configuração Inicial: 
 
-Importe as bibliotecas necessárias no seu notebook: 
+* Importe as bibliotecas necessárias no seu notebook: 
 
 import tensorflow as tf 
 
@@ -78,11 +78,11 @@ from sklearn.model_selection import train_test_split
 
 4. Carregamento de Dados: 
 
-Carregue os dados necessários para o treinamento do modelo.  
+* Carregue os dados necessários para o treinamento do modelo.  
 
 5. Pré-processamento de Dados: 
 
-Realize o pré-processamento dos dados, se necessário, para prepará-los para alimentar o modelo. Isso pode incluir tokenização, limpeza de texto, transformação de dados, entre outros. 
+* Realize o pré-processamento dos dados, se necessário, para prepará-los para alimentar o modelo. Isso pode incluir tokenização, limpeza de texto, transformação de dados, entre outros. 
 
  
 
@@ -90,38 +90,38 @@ Realize o pré-processamento dos dados, se necessário, para prepará-los para a
 
 ## Componentes e Ferramentas Principais 
 
-Google Colaboratory: Ambiente de desenvolvimento Python. 
+* Google Colaboratory: Ambiente de desenvolvimento Python. 
 
-TensorFlow e Keras: Bibliotecas de Deep Learning utilizadas para desenvolver e treinar modelos de processamento de linguagem natural (PNL). 
+* TensorFlow e Keras: Bibliotecas de Deep Learning utilizadas para desenvolver e treinar modelos de processamento de linguagem natural (PNL). 
 
-Transformers: Biblioteca que fornece implementações de modelos de PNL pré-treinados, como BERT e GPT, desenvolvida pela Hugging Face. 
+* Transformers: Biblioteca que fornece implementações de modelos de PNL pré-treinados, como BERT e GPT, desenvolvida pela Hugging Face. 
 
-NLTK (Natural Language Toolkit): Biblioteca popular para processamento de texto em linguagem natural, utilizada para tarefas como tokenização, stemming, lematização, entre outras.  
+* NLTK (Natural Language Toolkit): Biblioteca popular para processamento de texto em linguagem natural, utilizada para tarefas como tokenização, stemming, lematização, entre outras.  
 
-Pandas: Biblioteca para análise e manipulação de dados, amplamente utilizada para carregar, limpar e manipular conjuntos de dados.  
+* Pandas: Biblioteca para análise e manipulação de dados, amplamente utilizada para carregar, limpar e manipular conjuntos de dados.  
 
-NumPy: Biblioteca para computação numérica em Python, utilizada para operações matemáticas e manipulação de arrays.  
+* NumPy: Biblioteca para computação numérica em Python, utilizada para operações matemáticas e manipulação de arrays.  
 
-Matplotlib e Seaborn: Bibliotecas de visualização de dados em Python, utilizadas para criar gráficos e visualizações dos resultados do projeto.  
+* Matplotlib e Seaborn: Bibliotecas de visualização de dados em Python, utilizadas para criar gráficos e visualizações dos resultados do projeto.  
 
-scikit-learn: Biblioteca de aprendizado de máquina em Python, utilizada para avaliação de modelos, pré-processamento de dados e seleção de modelos.  
+* scikit-learn: Biblioteca de aprendizado de máquina em Python, utilizada para avaliação de modelos, pré-processamento de dados e seleção de modelos.  
 
 
 ## Fluxo  
 
-Configuração Inicial e Preparação:  
+1. Configuração Inicial e Preparação:  
 
 Instalação e importação de bibliotecas necessárias. 
 
 Configuração inicial do ambiente de desenvolvimento. 
 
-Carregamento e Pré-processamento de Dados:  
+2. Carregamento e Pré-processamento de Dados:  
 
 Carregamento dos conjuntos de dados necessários. 
 
 Pré-processamento dos dados, incluindo limpeza, tokenização, etc. 
 
-Definição e Treinamento do Modelo:  
+3. Definição e Treinamento do Modelo:  
 
 Escolha da arquitetura do modelo. 
 
@@ -129,43 +129,43 @@ Compilação e definição do modelo de processamento de linguagem natural.
 
 Treinamento do modelo utilizando os dados preparados. 
 
-Avaliação e Ajuste do Modelo:  
+4. Avaliação e Ajuste do Modelo:  
 
 Avaliação do desempenho do modelo em um conjunto de dados de teste. 
 
 Ajuste de hiperparâmetros para otimizar o desempenho do modelo. 
 
-Geração de Respostas em Linguagem Natural:  
+5. Geração de Respostas em Linguagem Natural:  
 
 Utilização do modelo treinado para gerar respostas autônomas e coerentes em inglês. 
 
 Teste e validação das respostas geradas em diferentes contextos. 
 
-Integração e Implantação:  
+6. Integração e Implantação:  
 
 Integração do modelo em um ambiente de produção, se aplicável. 
 
 Implantação do modelo em sistemas ou plataformas relevantes. 
 
-Documentação e Comentários:  
+7. Documentação e Comentários:  
 
 Documentação detalhada do código, incluindo descrição de funções, classes e métodos. 
 
 Comentários explicativos ao longo do código para facilitar a compreensão e manutenção. 
 
-Testes e Validação:  
+8. Testes e Validação:  
 
 Testes unitários e de integração para garantir o funcionamento correto do código. 
 
 Validação dos resultados obtidos em comparação com benchmarks ou referências conhecidas. 
 
-Otimização e Melhorias Futuras:  
+9. Otimização e Melhorias Futuras:  
 
 Otimização do código e do modelo para melhorar o desempenho e eficiência. 
 
 Identificação de áreas para futuras melhorias e desenvolvimento contínuo do projeto. 
 
-Licenciamento e Reconhecimentos:  
+10. Licenciamento e Reconhecimentos:  
 
 Informações sobre a licença do projeto e reconhecimentos aos contribuidores e fontes de dados utilizadas. 
 
