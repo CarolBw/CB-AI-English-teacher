@@ -111,9 +111,9 @@ from sklearn.model_selection import train_test_split
 
 1. Configuração Inicial e Preparação:  
 
-Instalação e importação de bibliotecas necessárias. 
+Configuração inicial do ambiente de desenvolvimento.
 
-Configuração inicial do ambiente de desenvolvimento. 
+Instalação e importação de bibliotecas necessárias. 
 
 2. Carregamento e Pré-processamento de Dados:  
 
